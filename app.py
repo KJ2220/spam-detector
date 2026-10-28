@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from scikit-learn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
